@@ -21,6 +21,13 @@ if (randNo1 > randNo2){
     heading.innerHTML = "Draw!"
  }
 
- document.getElementById("refreshButton").addEventListener("click", function() {
+ function refreshPage() {
    location.reload();
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+   var refreshButton = document.getElementById("refreshButton");
+   refreshButton.addEventListener("click", refreshPage);
+   refreshButton.addEventListener("touchstart", refreshPage);
 });
+
