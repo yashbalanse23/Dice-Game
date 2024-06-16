@@ -22,6 +22,14 @@ h1 {
   color: #4ECCA3;
 }
 
+button{
+  text-align: center;
+  background-color:#4ECCA3;
+  text-shadow: #232931;
+  font-family: 'Lobster';
+  color: black;
+}
+
 p {
   font-size: 2rem;
   color: #4ECCA3;
